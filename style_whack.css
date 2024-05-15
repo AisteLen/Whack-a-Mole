@@ -174,3 +174,10 @@ border: 1px solid black;
 #points {
 margin: 30px;
 }
+
+.mole {
+    background-color: #198754;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
