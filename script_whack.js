@@ -18,3 +18,12 @@ function myTimer() {
 
 setInterval(myTimer, 750);
 
+squares.forEach(square => {
+    square.addEventListener('click', () => {
+        if (square.classList.contains('mole')) {
+            pointsResult += 1;
+            points.innerText = "Points: " + pointsResult;
+            square.classList.remove('mole');
+        }
+    });
+});
